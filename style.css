@@ -1,10 +1,10 @@
 :root{
-  --bgColor : #38075f;
-  --mCol: #B030B0;
-  --sCol-1: #5a0574;
-  --sCol-2: #7006a1;
-  --fntCol-1: #497c01;
-  --fntCol-2: #7fca16;
+  --bgColor : #124060;
+  --mCol: #eeeee;
+  --sCol-1: #101010;
+  --sCol-2: #232323;
+  --fntCol-1: #eee9e9;
+  --fntCol-2: #fff9ff;
 }
 
 *{
