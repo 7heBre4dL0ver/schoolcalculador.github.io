@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+  <title>Web Calculator</title>
+</head>
+<body>
+  <header class="header-cont">
+    <h1 class="header-text header-title">Web Calculator</h1>
+    <p class="header-text header-p">This is an experimental webpage where you can do basic math operations. Use it as you please and then provide a feedback.</p>
+  </header>
+  <main id="app">
+    <section class="window-cont">
+      <input type="text" class="window-values" id="opWin">
+      <textarea name="result window" id="resWin" cols="15" rows="1" readonly></textarea>
+    </section>
+    <section class="opBtns-cont" id="operationBtns">
+      <button type="button" class="opBtns" value="+">&plus;</button>
+      <button type="button" class="opBtns" value="-">&minus;</button>
+      <button type="button" class="opBtns" value="*">&bullet;</button>
+      <button type="button" class="opBtns" value="/">&divide;</button>
+      <button type="button" class="opBtns" value="=">&equals;</button>
+      <button type="button" class="opBtns" value="c">&leftarrow;</button>
+    </section>
+    <section class="numBtns-cont" id="numbrBtns">
+      <button type="button" class="numBtns" value="0">0</button>
+      <button type="button" class="numBtns" value="1">1</button>
+      <button type="button" class="numBtns" value="2">2</button>
+      <button type="button" class="numBtns" value="3">3</button>
+      <button type="button" class="numBtns" value="4">4</button>
+      <button type="button" class="numBtns" value="5">5</button>
+      <button type="button" class="numBtns" value="6">6</button>
+      <button type="button" class="numBtns" value="7">7</button>
+      <button type="button" class="numBtns" value="8">8</button>
+      <button type="button" class="numBtns" value="9">9</button>
+    </section>
+  </main>
+</body>
+</html>
