@@ -1,10 +1,11 @@
 :root{
-  --bgColor : linear-gradient(55deg,#0000f9,#e81040,#40e920,#2050e4);
+  --bgColor : #555da3;
+  --bgCol-2 : #eef;
   --mCol: #eeeeee;
-  --sCol-1: #101010;
-  --sCol-2: #232323;
+  --sCol-1: #70254f5f;
+  --sCol-2: #40223d;
   --fntCol-1: #eee9e9;
-  --fntCol-2: #fff9ff;
+  --fntCol-2: #101220;
 }
 
 *{
@@ -40,9 +41,8 @@ body{
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  min-width: 275px;
+  width: 300px;
   max-width: 500px;
-  border:var(--sCol-2) solid 5px;
   border-radius: 5px;
   height: fit-content;
 }
@@ -64,9 +64,11 @@ body{
   border: none;
 }
 #opWin, #resWin{
-  width: 100%;
+  width: 98%;
   text-align: end;
-  background: #000;
+  font-size:30px;
+  padding: 0 5px;
+  background: var(--bgCol-2);
   color: var(--fntCol-2);
   height: 50px;
 }
@@ -88,6 +90,5 @@ body{
   justify-content: center;
   border-radius: 100%;
   color: var(--fntCol-1);
-  background: #010101;
+  background: var(--sCol-2);
 }
-
