@@ -15,7 +15,7 @@ body{
   font-family: sans-serif, 'Roboto Mono';
   font-size: 20px;
   background: var(--bgColor) fixed;
-  padding: 15px;
+  padding: 0;
   margin: 0;
 }
 .header-cont{
@@ -41,7 +41,7 @@ body{
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  min-width: 300px;
+  min-width: 360px;
   max-width: 500px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -92,4 +92,10 @@ body{
   border-radius: 100%;
   color: var(--fntCol-1);
   background: var(--sCol-2);
+}
+
+@media screen and (max-width:460px){
+  #app{
+    width: 310px;
+  }
 }
